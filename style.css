@@ -58,6 +58,7 @@ form input {
 }
 
 .comment {
+
     padding: 10px;
    
 }
@@ -92,4 +93,18 @@ form input {
     margin-left: 70px;
     display: inline-block;
     width: 45%;
+}
+
+.comment button {
+    padding: 14px 20px;
+    margin-top: 10px;
+    background:#e46225;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+} 
+
+.comment button:hover {
+    background:#8a3b17;
 }
