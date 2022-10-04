@@ -1,0 +1,96 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    width: 60%;
+}
+
+.seperate {
+    width: 100%;
+    background: rgba(111, 104, 104, 0.226);
+    /* border: 2px solid #111; */
+    padding: 1px 0 ;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author p {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.author span {
+    color: red;
+    
+}
+
+.author img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.content span {
+    font-weight: 600;
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 15px;
+
+}
+
+
+
+form  label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+form input {
+    width: 100%;
+    
+}
+
+.comment {
+    padding: 10px;
+   
+}
+
+.comment span {
+    color: red;
+}
+
+.comment textarea {
+
+    width: 100%;
+    height: 100px;
+}
+
+form {
+    line-height: 40px;
+
+}
+
+form input {
+    padding: 10px 0;
+}
+
+
+
+.form__comment-email {
+    display: inline-block;
+    width: 45%;
+}
+
+.form__comment-webpage {
+    margin-left: 70px;
+    display: inline-block;
+    width: 45%;
+}
